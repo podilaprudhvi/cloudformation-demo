@@ -1,8 +1,8 @@
 pipeline {
     agent any
     environment {
-    AWS_ACCESS_KEY_ID     = AKIA3LSDZ55XTGE6PEQV
-    AWS_SECRET_ACCESS_KEY = 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
+    AWS_ACCESS_KEY_ID     = "AKIA3LSDZ55XTGE6PEQV"
+    AWS_SECRET_ACCESS_KEY = "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"
    }
     stages {
         stage('Create Stack') {
