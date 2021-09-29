@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Create Stack') {
             steps {
-            sh "aws cloudformation create-stack --stack-name s3bucket12 --template-body file://simplests3cft.json --region 'us-east-1'"
+            sh "aws cloudformation create-stack --stack-name s3bucket13 --template-body file://simplests3cft.json --region 'us-east-1'"
               }
             }
         }
